@@ -54,3 +54,7 @@ Gunakan volume untuk data persisten dan restart policy yang aman.
 - Gunakan env file.
 - Simpan data database di volume.
 - Pisahkan network internal jika perlu.
+
+## Versi Spesifik
+
+Kalau kamu mau panduan Docker production yang lebih lengkap, buka [22. Docker Stack](./22-docker-stack.md).
