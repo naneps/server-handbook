@@ -1,0 +1,4 @@
+theme: minima
+title: VPS Operations Handbook
+description: Handbook operasional VPS untuk setup awal, security, deployment frontend/backend, Docker, monitoring, backup, dan maintenance.
+markdown: kramdown
