@@ -2,6 +2,10 @@
 
 Panduan operasional VPS dari basic sampai advanced, disusun seperti handbook agar mudah dipakai sebagai referensi harian.
 
+**Keywords:** VPS, Linux Server, Ubuntu, Debian, Nginx, Docker, DevOps, Deployment, Backend, Frontend, Laravel, Next.js, FastAPI, Security, Monitoring, Backup
+
+**Hashtags:** #vps #linux #ubuntu #debian #nginx #docker #devops #deployment #backend #frontend #laravel #nextjs #fastapi #security #monitoring #backup
+
 ## Mulai dari Sini
 
 - Baru setup server? Baca [01. Foundation](./01-foundation.md) lalu [02. Initial Setup](./02-initial-setup.md)
@@ -67,6 +71,10 @@ Diagram versi file ada di [26-architecture.mmd](./26-architecture.mmd).
 1. Baca berurutan kalau kamu benar-benar baru.
 2. Kalau tujuanmu spesifik, langsung lompat ke guide stack yang relevan.
 3. Untuk production, jadikan checklist, backup, dan troubleshooting sebagai referensi rutin.
+
+## GitHub Pages
+
+Landing page GitHub Pages tersedia di [index.md](./index.md).
 
 ## Catatan
 
