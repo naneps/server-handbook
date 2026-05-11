@@ -84,3 +84,7 @@ Jalankan binary sebagai service systemd.
 - Build artifact di CI
 - Jalankan sebagai service
 - Reverse proxy via Nginx
+
+## Versi Spesifik
+
+Untuk backend yang lebih fokus ke pola production, service, dan reverse proxy, buka [21. Backend Stack](./21-backend-stack.md).
