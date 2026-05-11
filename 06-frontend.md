@@ -73,3 +73,7 @@ Jika aplikasi mendukung, export ke static lalu serve via Nginx.
 3. build
 4. copy artifact
 5. reload Nginx
+
+## Versi Spesifik
+
+Kalau kamu butuh guide frontend yang lebih fokus ke production, buka [20. Frontend Stack](./20-frontend-stack.md).
