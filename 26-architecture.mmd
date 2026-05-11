@@ -1,0 +1,15 @@
+flowchart LR
+    U[User / Browser] --> D[DNS]
+    D --> N[Nginx / Reverse Proxy]
+
+    N --> F[Frontend App]
+    N --> B[Backend API]
+
+    B --> Q[Queue Worker]
+    B --> R[Redis Cache]
+    B --> DB[(PostgreSQL / MySQL)]
+    B --> S[Object Storage]
+
+    C[CI/CD Pipeline] --> N
+    C --> F
+    C --> B
