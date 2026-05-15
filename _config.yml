@@ -1,4 +1,44 @@
 theme: minima
 title: VPS Operations Handbook
-description: Handbook operasional VPS untuk setup awal, security, deployment frontend/backend, Docker, monitoring, backup, dan maintenance.
+description: Comprehensive handbook for VPS operations - from basic setup to advanced production patterns
+author: naneps
+email: naneps@github.com
+url: https://naneps.github.io/server-handbook
+repository: naneps/server-handbook
+github_username: naneps
+
+# Markdown settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Navigation
+header_pages:
+  - index.md
+  - README.md
+
+# Permalink structure
+permalink: /:title/
+
+# Collections
+collections:
+  guides:
+    output: false
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - README.md.bak
+  - node_modules/
+  - vendor/
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
